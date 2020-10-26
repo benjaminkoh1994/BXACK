@@ -3,7 +3,7 @@ ICT 2202 (Digital Forensics) Project
 
 Version: 1.0
 
-This tool is created to assist Network Forensics Analyst to extract and analyze raw core dump files directly from Cisco Network Devices.
+This tool is created to assist Network Forensics Analyst to extract and analyze raw core dump files directly from Cisco Network Devices. The information retrieved will be stored in pdf files to be used as digital evidence or further analysis.
 
 
 # Detailed Manual Guide
