@@ -14,16 +14,23 @@ Link:
 Youtube Link:
 
 
-# Documentation on Project Package
-BXACK Project consists of three package namely:
+# Documentation on Project Package 
+BXACK Project consists of three module namely:
 
-.program.py
+program.py
+1. Test
 
-.extract.py
+extract.py
 
-.ssh.py
+ssh.py
 
 
 # Libraries Used
+* PyFPDF
+* ssh
+* datetime
+* paramiko
+
+
 
 
