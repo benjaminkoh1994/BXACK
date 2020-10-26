@@ -1,0 +1,2 @@
+show cdp nei detail 
+R2#

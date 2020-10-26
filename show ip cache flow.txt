@@ -1,0 +1,19 @@
+show ip cache flow 
+IP packet size distribution (0 total packets):
+   1-32   64   96  128  160  192  224  256  288  320  352  384  416  448  480
+   .000 .000 .000 .000 .000 .000 .000 .000 .000 .000 .000 .000 .000 .000 .000
+
+    512  544  576 1024 1536 2048 2560 3072 3584 4096 4608
+   .000 .000 .000 .000 .000 .000 .000 .000 .000 .000 .000
+
+IP Flow Switching Cache, 0 bytes
+  0 active, 0 inactive, 0 added
+  0 ager polls, 0 flow alloc failures
+  Active flows timeout in 30 minutes
+  Inactive flows timeout in 15 seconds
+  last clearing of statistics never
+Protocol         Total    Flows   Packets Bytes  Packets Active(Sec) Idle(Sec)
+--------         Flows     /Sec     /Flow  /Pkt     /Sec     /Flow     /Flow
+
+SrcIf         SrcIPaddress    DstIf         DstIPaddress    Pr SrcP DstP  Pkts
+R2#
