@@ -3,7 +3,7 @@ ICT 2202 (Digital Forensics) Project
 
 Version: 1.0
 
-This tool is created to assist Network Forensics Analyst to extract and analyze raw core dump files directly from Cisco Network Devices. The information retrieved will be stored in pdf files to be used as digital evidence or further analysis.
+This tool is created to assist Network Forensics Analyst to extract and analyze raw core dump files directly from Cisco Network Devices. The information retrieved will be stored in pdf files to be used as digital evidence or for further analysis.
 
 
 # Detailed Manual Guide
@@ -18,12 +18,13 @@ Youtube Link:
 BXACK Project consists of three module namely:
 
 program.py
-1. Test
+1. Explainatin of function...
 
 extract.py
+1. Explainatin of function...
 
 ssh.py
-
+1. Explainatin of function...
 
 # Libraries Used
 * PyFPDF
