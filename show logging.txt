@@ -1,5 +1,5 @@
 show logging 
-Syslog logging: enabled (0 messages dropped, 2 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+Syslog logging: enabled (0 messages dropped, 21 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
 
 No Active Message Discriminator.
 
@@ -8,64 +8,97 @@ No Active Message Discriminator.
 No Inactive Message Discriminator.
 
 
-    Console logging: level debugging, 39 messages logged, xml disabled,
+    Console logging: level debugging, 55 messages logged, xml disabled,
                      filtering disabled
     Monitor logging: level debugging, 0 messages logged, xml disabled,
                      filtering disabled
-    Buffer logging:  level debugging, 39 messages logged, xml disabled,
+    Buffer logging:  level debugging, 76 messages logged, xml disabled,
                     filtering disabled
     Exception Logging: size (8192 bytes)
     Count and timestamp logging messages: disabled
     Persistent logging: disabled
-
-No active filter modules.
-
-    Trap logging: level informational, 42 message lines logged
+    Trap logging: level informational, 79 message lines logged
         Logging Source-Interface:       VRF Name:
 
 Log Buffer (8192 bytes):
 
-*Oct 26 13:31:22.239: %IFMGR-7-NO_IFINDEX_FILE: Unable to open nvram:/ifIndex-table No such file or directory
-*Oct 26 13:31:22.787: %PLATFORM-3-PACONFIG: Exceeds 600 bandwidth points for slots 0, 1, 3 & 5
-*Oct 26 13:31:22.795: %PLATFORM-3-PACONFIG: Exceeds 600 bandwidth points on both odd & even numbered slots
-*Oct 26 13:31:45.027: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0, changed state to up
-*Oct 26 13:31:45.039: %LINK-3-UPDOWN: Interface Ethernet0/0, changed state to up
-*Oct 26 13:31:45.047: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
-*Oct 26 13:31:45.055: %LINK-3-UPDOWN: Interface GigabitEthernet1/0, changed state to up
-*Oct 26 13:31:45.063: %LINK-3-UPDOWN: Interface GigabitEthernet2/0, changed state to up
-*Oct 26 13:31:45.071: %LINK-3-UPDOWN: Interface GigabitEthernet3/0, changed state to up
-*Oct 26 13:31:45.079: %LINK-3-UPDOWN: Interface GigabitEthernet4/0, changed state to up
-*Oct 26 13:31:46.107: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/0, changed state to up
-*Oct 26 13:31:46.111: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
-*Oct 26 13:31:46.115: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to up
-*Oct 26 13:31:46.119: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0, changed state to up
-*Oct 26 13:31:46.123: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0, changed state to up
-*Oct 26 13:31:46.127: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0, changed state to up
-*Oct 26 13:31:47.119: %SYS-5-CONFIG_I: Configured from memory by console
-*Oct 26 13:31:48.179: %SYS-5-RESTART: System restarted --
-Cisco IOS Software, 7200 Software (C7200-ADVENTERPRISEK9-M), Version 15.2(4)M5, RELEASE SOFTWARE (fc2)
-Technical Support: http://www.cisco.com/techsupport
-Copyright (c) 1986-2013 by Cisco Systems, Inc.
-Compiled Fri 13-Sep-13 18:47 by prod_rel_team
-*Oct 26 13:31:48.307: %SNMP-5-COLDSTART: SNMP agent on host R2 is undergoing a cold start
-*Oct 26 13:31:48.635: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
-*Oct 26 13:31:48.639: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
-*Oct 26 13:31:49.127: %LINK-5-CHANGED: Interface Ethernet0/0, changed state to administratively down
-*Oct 26 13:31:49.139: %LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to administratively down
-*Oct 26 13:31:49.151: %LINK-5-CHANGED: Interface GigabitEthernet1/0, changed state to administratively down
-*Oct 26 13:31:49.159: %LINK-5-CHANGED: Interface GigabitEthernet2/0, changed state to administratively down
-*Oct 26 13:31:49.171: %LINK-5-CHANGED: Interface GigabitEthernet3/0, changed state to administratively down
-*Oct 26 13:31:49.179: %LINK-5-CHANGED: Interface GigabitEthernet4/0, changed state to administratively down
-*Oct 26 13:31:50.127: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/0, changed state to down
-*Oct 26 13:31:50.139: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to down
-*Oct 26 13:31:50.151: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to down
-*Oct 26 13:31:50.159: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0, changed state to down
-*Oct 26 13:31:50.171: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0, changed state to down
-*Oct 26 13:31:50.179: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0, changed state to down
-*Oct 26 13:32:59.303: %SYS-5-CONFIG_I: Configured from console by console
-*Oct 26 13:51:53.691: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
-*Oct 26 13:51:54.691: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
-*Oct 26 16:14:41.499: %SYS-5-CONFIG_I: Configured from console by console
-*Oct 26 16:16:07.711: %SSH-5-ENABLED: SSH 1.99 has been enabled
-*Oct 26 16:18:17.919: %SYS-5-CONFIG_I: Configured from console by console
-R2#
+*Mar  1 00:00:01.409: %ATA-6-DEV_FOUND: device 0x1F0
+*Mar  1 00:00:01.503: %NVRAM-5-CONFIG_NVRAM_READ_OK: NVRAM configuration 'flash:/nvram' was read from disk.
+*Oct 31 15:47:50.703: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+*Oct 31 15:47:55.369: %LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to reset
+*Oct 31 15:47:55.370: %LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to reset
+*Oct 31 15:47:55.370: %LINK-5-CHANGED: Interface GigabitEthernet0/2, changed state to reset
+*Oct 31 15:47:55.371: %LINK-5-CHANGED: Interface GigabitEthernet0/3, changed state to reset
+*Oct 31 15:47:55.371: %LINK-5-CHANGED: Interface GigabitEthernet1/0, changed state to reset
+*Oct 31 15:47:55.372: %LINK-5-CHANGED: Interface GigabitEthernet1/1, changed state to reset
+*Oct 31 15:47:55.372: %LINK-5-CHANGED: Interface GigabitEthernet1/2, changed state to reset
+*Oct 31 15:47:55.373: %LINK-5-CHANGED: Interface GigabitEthernet1/3, changed state to reset
+*Oct 31 15:47:55.373: %LINK-5-CHANGED: Interface GigabitEthernet2/0, changed state to reset
+*Oct 31 15:47:55.374: %LINK-5-CHANGED: Interface GigabitEthernet2/1, changed state to reset
+*Oct 31 15:47:55.374: %LINK-5-CHANGED: Interface GigabitEthernet2/2, changed state to reset
+*Oct 31 15:47:55.375: %LINK-5-CHANGED: Interface GigabitEthernet2/3, changed state to reset
+*Oct 31 15:47:55.375: %LINK-5-CHANGED: Interface GigabitEthernet3/0, changed state to reset
+*Oct 31 15:47:55.376: %LINK-5-CHANGED: Interface GigabitEthernet3/1, changed state to reset
+*Oct 31 15:47:55.376: %LINK-5-CHANGED: Interface GigabitEthernet3/2, changed state to reset
+*Oct 31 15:47:55.377: %LINK-5-CHANGED: Interface GigabitEthernet3/3, changed state to reset
+*Oct 31 15:47:55.907: %SYS-5-CONFIG_I: Configured from memory by console
+*Oct 31 15:47:56.486: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to down
+*Oct 31 15:47:56.487: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to down
+*Oct 31 15:47:56.488: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*Oct 31 15:47:56.488: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to up
+*Oct 31 15:47:56.489: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to up
+*Oct 31 15:47:56.489: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to up
+*Oct 31 15:47:56.490: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/2, changed state to up
+*Oct 31 15:47:56.490: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/3, changed state to up
+*Oct 31 15:47:56.491: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0, changed state to up
+*Oct 31 15:47:56.491: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/1, changed state to up
+*Oct 31 15:47:56.492: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/2, changed state to up
+*Oct 31 15:47:56.492: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/3, changed state to up
+*Oct 31 15:47:56.493: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0, changed state to up
+*Oct 31 15:47:56.494: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/1, changed state to up
+*Oct 31 15:47:56.494: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/2, changed state to up
+*Oct 31 15:47:56.495: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/3, changed state to up
+*Oct 31 15:47:56.900: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+*Oct 31 15:47:56.900: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan30, changed state to down
+*Oct 31 15:47:57.728: %LINK-3-UPDOWN: Interface GigabitEthernet3/3, changed state to up
+*Oct 31 15:47:57.730: %LINK-3-UPDOWN: Interface GigabitEthernet3/2, changed state to down
+*Oct 31 15:47:57.730: %LINK-3-UPDOWN: Interface GigabitEthernet3/1, changed state to down
+*Oct 31 15:47:57.731: %LINK-3-UPDOWN: Interface GigabitEthernet3/0, changed state to down
+*Oct 31 15:47:57.732: %LINK-3-UPDOWN: Interface GigabitEthernet2/3, changed state to down
+*Oct 31 15:47:57.732: %LINK-3-UPDOWN: Interface GigabitEthernet2/2, changed state to down
+*Oct 31 15:47:57.733: %LINK-3-UPDOWN: Interface GigabitEthernet2/1, changed state to down
+*Oct 31 15:47:57.734: %LINK-3-UPDOWN: Interface GigabitEthernet2/0, changed state to down
+*Oct 31 15:47:57.734: %LINK-3-UPDOWN: Interface GigabitEthernet1/3, changed state to down
+*Oct 31 15:47:57.735: %LINK-3-UPDOWN: Interface GigabitEthernet1/2, changed state to down
+*Oct 31 15:47:57.736: %LINK-3-UPDOWN: Interface GigabitEthernet1/1, changed state to down
+*Oct 31 15:47:57.736: %LINK-3-UPDOWN: Interface GigabitEthernet1/0, changed state to down
+*Oct 31 15:47:57.737: %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to down
+*Oct 31 15:47:57.740: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to down
+*Oct 31 15:47:57.741: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*Oct 31 15:47:57.742: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*Oct 31 15:47:58.776: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/2, changed state to down
+*Oct 31 15:47:58.777: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/1, changed state to down
+*Oct 31 15:47:58.778: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0, changed state to down
+*Oct 31 15:47:58.778: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/3, changed state to down
+*Oct 31 15:47:58.779: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/2, changed state to down
+*Oct 31 15:47:58.779: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/1, changed state to down
+*Oct 31 15:47:58.780: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0, changed state to down
+*Oct 31 15:47:58.781: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/3, changed state to down
+*Oct 31 15:47:58.781: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/2, changed state to down
+*Oct 31 15:47:58.782: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to down
+*Oct 31 15:47:58.783: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to down
+*Oct 31 15:47:58.783: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to down
+*Oct 31 15:47:58.784: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to down
+*Oct 31 15:47:58.785: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+*Oct 31 15:47:58.785: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*Oct 31 15:48:04.410: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Experimental Version 15.2(20170321:233949) [mmen 101]
+Copyright (c) 1986-2017 by Cisco Systems, Inc.
+Compiled Wed 22-Mar-17 08:38 by mmen
+*Oct 31 15:48:04.462: %SSH-5-ENABLED: SSH 2.0 has been enabled
+*Oct 31 15:48:17.797: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios_l2-adventerprisek9-m' passed code signing verification
+*Oct 31 15:48:36.644: %LINK-3-UPDOWN: Interface Vlan30, changed state to up
+*Oct 31 15:48:37.647: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan30, changed state to up
+*Oct 31 16:01:33.557: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPACK, MAC sa: 0050.56f0.b0c1
+*Oct 31 16:16:21.073: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPACK, MAC sa: 0050.56f0.b0c1
+ACCESS#

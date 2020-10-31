@@ -6,11 +6,15 @@ Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
        i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
        ia - IS-IS inter area, * - candidate default, U - per-user static route
        o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+       a - application route
        + - replicated route, % - next hop override
 
 Gateway of last resort is not set
 
-      192.168.80.0/24 is variably subnetted, 2 subnets, 2 masks
-C        192.168.80.0/24 is directly connected, GigabitEthernet0/0
-L        192.168.80.10/32 is directly connected, GigabitEthernet0/0
-R2#
+      192.168.30.0/24 is variably subnetted, 2 subnets, 2 masks
+C        192.168.30.0/24 is directly connected, Vlan30
+L        192.168.30.2/32 is directly connected, Vlan30
+      192.168.133.0/24 is variably subnetted, 2 subnets, 2 masks
+C        192.168.133.0/24 is directly connected, Vlan1
+L        192.168.133.120/32 is directly connected, Vlan1
+ACCESS#

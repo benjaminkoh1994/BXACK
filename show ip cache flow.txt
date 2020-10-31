@@ -1,4 +1,47 @@
-show ip cache flow 
+show sockets 
+   PID      TCP      UDP      SCTP
+    64        0        0         0
+    65        0        0         0
+    66        0        0         0
+    85        0        0         0
+    86        0        0         0
+    87        0        0         0
+   119        0        0         0
+   120        0        0         0
+   135        0        0         0
+   170        0        0         0
+   171        0        1         0
+   205        0        0         0
+   206        0        0         0
+   207        0        0         0
+   215        0        0         0
+   219        0        0         0
+   239        0        0         0
+   251        0        0         0
+   252        0        0         0
+   253        0        0         0
+   257        0        0         0
+   258        0        0         0
+   260        0        0         0
+   261        0        0         0
+   262        0        0         0
+   263        0        0         0
+   264        0        0         0
+   265        0        0         0
+   267        0        0         0
+   268        0        0         0
+   269        0        0         0
+   270        0        0         0
+   271        0        0         0
+   272        0        0         0
+   273        0        0         0
+   274        0        0         0
+   275        0        0         0
+   276        0        0         0
+   277        0        0         0
+   279        0        0         0
+   283        0        0         0
+ACCESS#show ip cache flow 
 IP packet size distribution (0 total packets):
    1-32   64   96  128  160  192  224  256  288  320  352  384  416  448  480
    .000 .000 .000 .000 .000 .000 .000 .000 .000 .000 .000 .000 .000 .000 .000
@@ -16,4 +59,4 @@ Protocol         Total    Flows   Packets Bytes  Packets Active(Sec) Idle(Sec)
 --------         Flows     /Sec     /Flow  /Pkt     /Sec     /Flow     /Flow
 
 SrcIf         SrcIPaddress    DstIf         DstIPaddress    Pr SrcP DstP  Pkts
-R2#
+ACCESS#

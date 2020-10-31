@@ -4,16 +4,20 @@ Prefix               Next Hop             Interface
 0.0.0.0/8            drop
 0.0.0.0/32           receive              
 127.0.0.0/8          drop
-192.168.80.0/24      attached             GigabitEthernet0/0
-192.168.80.0/32      receive              GigabitEthernet0/0
-192.168.80.1/32      attached             GigabitEthernet0/0
-192.168.80.2/32      attached             GigabitEthernet0/0
-192.168.80.10/32     receive              GigabitEthernet0/0
-192.168.80.128/32    attached             GigabitEthernet0/0
-192.168.80.254/32    attached             GigabitEthernet0/0
-192.168.80.255/32    receive              GigabitEthernet0/0
+192.168.30.0/24      attached             Vlan30
+192.168.30.0/32      receive              Vlan30
+192.168.30.2/32      receive              Vlan30
+192.168.30.255/32    receive              Vlan30
+192.168.133.0/24     attached             Vlan1
+192.168.133.0/32     receive              Vlan1
+192.168.133.1/32     attached             Vlan1
+192.168.133.2/32     attached             Vlan1
+192.168.133.120/32   receive              Vlan1
+192.168.133.128/32   attached             Vlan1
+192.168.133.254/32   attached             Vlan1
+192.168.133.255/32   receive              Vlan1
 224.0.0.0/4          drop
 224.0.0.0/24         receive              
 240.0.0.0/4          drop
 255.255.255.255/32   receive              
-R2#
+ACCESS#

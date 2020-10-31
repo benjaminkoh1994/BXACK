@@ -1,11 +1,14 @@
 from fpdf import FPDF
-from ssh import *
+from compare import *
 from extract import *
 
-if __name__ == '__main__':
+
+  
+if __name__=='__main__':
     while True:
         print("Option A: Collect Cisco Forensic Evidence")
         print("Option B: Analyze Cisco Forensic Evidence")
+        print("Option C: Compare Running-Config & Startup-Config")
         userOption = input("Please choose an option: ").lower()
         if userOption == "a":
             while True:
@@ -13,21 +16,22 @@ if __name__ == '__main__':
                 username = input("Username: ")
                 password = input("Password: ")
                 enablePw = input("Enable Password: ")
-                sshConnection(userIP, username, password, enablePw)
+                connection = ssh(userIP, username, password, enablePw)
+                connection.sshConnection()
                 userExit = input("Do you wish to continue? ").lower()
                 if userExit == "yes" or userExit == "y":
                     continue
                 else:
                     break
-
+            
         elif userOption == "b":
             while True:
                 try:
                     fileName = input("File-Path: ")
-                    # extract CMD
+                    #extract CMD
                     extracter = EXTRACTCMD(fileName)
                     extracter.readFile()
-                    # extract sections
+                    #extract sections
                     extractSect = EXTRACTSECTIONS(fileName)
                     extractSect.readSections()
                     sectionDict = extractSect.returnDetails()
@@ -35,11 +39,10 @@ if __name__ == '__main__':
                 except Exception as e:
                     print(e)
                     continue
-
+            
             while True:
                 try:
-                    print("===========================================", "Menu List",
-                          "=======================================")
+                    print("===========================================", "Menu List", "=======================================")
                     print("Option 1: Commands History")
                     print("Option 2: Show start of Crash Info Collection")
                     print("Option 3: Show Alignment")
@@ -52,21 +55,19 @@ if __name__ == '__main__':
                     print("Option 10: Show Interrupt Stack")
                     print("Option 11: Show Register Memory Dump")
                     print("Option 12: Show chunk failures")
-                    print("Option 13: Merge and Output file")
-                    print("Option 14: Exit")
+                    #print("Option 13: Merge and Output file")
+                    print("Option 13: Exit")
                     userInput = int(input("Choose an Option: "))
                 except ValueError:
                     print("Please enter a valid option\n")
                     continue
-
+                
                 if userInput == 1:
-                    print("===========================================", "Commands History",
-                          "=======================================")
+                    print("===========================================", "Commands History", "=======================================")
                     for line in extracter.getcmdhist():
                         print(line)
                 elif userInput == 2:
-                    print("===========================", "Start of Crash Info Collection",
-                          "=============================")
+                    print("===========================", "Start of Crash Info Collection", "=============================")
                     for line in sectionDict["Start of Crashinfo Collection"]:
                         print(line)
                 elif userInput == 3:
@@ -78,75 +79,67 @@ if __name__ == '__main__':
                     for line in sectionDict["Malloc and Free Traces"]:
                         print(line)
                 elif userInput == 5:
-                    print("===========================", "Stack Trace", "=============================")
+                    print("===========================","Stack Trace", "=============================")
                     for line in sectionDict["Stack Trace"]:
                         print(line)
                 elif userInput == 6:
-                    print("===========================", "Context", "=============================")
+                    print("===========================","Context", "=============================")
                     for line in sectionDict["Context"]:
                         print(line)
                 elif userInput == 7:
-                    print("===========================", "Stack Dump", "=============================")
+                    print("===========================","Stack Dump", "=============================")
                     for line in sectionDict["Stack Dump"]:
                         print(line)
                 elif userInput == 8:
-                    print("===========================", "Process Level Info", "=============================")
+                    print("===========================","Process Level Info", "=============================")
                     for line in sectionDict["Process Level Info"]:
-                        print(line)
+                        print(line) 
                 elif userInput == 9:
-                    print("===========================", "Interrupt Level Stack Dump", "=============================")
+                    print("===========================","Interrupt Level Stack Dump", "=============================")
                     for line in sectionDict["Interrupt Level Stack Dump"]:
                         print(line)
                 elif userInput == 10:
-                    print("===========================", "Interrupt Stack", "=============================")
+                    print("===========================","Interrupt Stack", "=============================")
                     for line in sectionDict["Interrupt Stack"]:
                         print(line)
                 elif userInput == 11:
-                    print("===========================", "Register Memory Dump", "=============================")
+                    print("===========================","Register Memory Dump", "=============================")
                     for line in sectionDict["Register Memory Dump"]:
                         print(line)
                 elif userInput == 12:
-                    print("===========================", "chunk failures", "=============================")
+                    print("===========================","chunk failures", "=============================")
                     for line in sectionDict["show chunk failures"]:
                         print(line)
                 elif userInput == 13:
-                    Path = input("Enter a file path: ")
-                    try:
-                        # create PDF file
-                        number = 1
-                        pdf = FPDF()
-                        pdf.add_page()
-                        pdf.set_font("Arial", 'B', size=14)
-                        pdf.cell(200, 15, txt="Commands History", ln=number, align="C")
-                        number += 1
-                        for line in extracter.getcmdhist():
-                            pdf.set_font("Arial", size=10)
-                            pdf.cell(200, 5, txt="#" + line, ln=number, align="L")
-                            number += 1
-
-                        for key, value in sectionDict.items():
-                            pdf.set_font("Arial", 'B', size=14)
-                            pdf.cell(200, 15, txt=key, ln=number, align="C")
-                            number += 1
-                            for v in value:
-                                pdf.set_font("Arial", size=10)
-                                pdf.cell(200, 5, txt=v, ln=number, align="L")
-                                number += 1
-                        pdf.output(Path+".pdf")
-                        print("File had been saved.")
-                    except Exception as e:
-                        print("File unable to save due to ", e)
-                elif userInput == 14:
                     break
                 else:
-                    print("Please enter a valid option [1 to 14].")
+                    print("Please input a valid option")
+                    
+        elif userOption == "c":
+            while True:
+                userIP = input("Remote Host: ")
+                username = input("Username: ")
+                password = input("Password: ")
+                enablePw = input("Enable Password: ")
+                connection = ssh(userIP, username, password, enablePw)
+                connection.compareFiles()
+                print("====================== Legends ======================")
+                print("? > Incremental Difference")
+                print("+ > in running-config but not in startup-config")
+                print("- > In startup-config but not in running-config")
+                userExit = input("Do you wish to continue? ").lower()
+                if userExit == "yes" or userExit == "y":
+                    continue
+                else:
+                    break
         else:
             print("Please choose a valid option. (A or B)")
             continue
+           
+           
+    
+    
+            
+        
 
-
-
-
-
-
-
+    

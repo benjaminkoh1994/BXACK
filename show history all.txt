@@ -1,7 +1,6 @@
 
-R2#show history all 
-*Oct 26 13:31:22.787: %PLATFORM-3-PACONFIG: Exceeds 600 bandwidth points for slots 0, 1, 3 & 5
-*Oct 26 13:31:22.795: %PLATFORM-3-PACONFIG: Exceeds 600 bandwidth points on both odd & even numbered slots
+ACCESS#show history all 
+
 This product contains cryptographic features and is subject to United
 States and local country laws governing import, export, transfer and
 use. Delivery of Cisco cryptographic products does not imply
@@ -17,156 +16,231 @@ http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
 If you require further assistance please contact us by sending email to
 export@cisco.com.
 
-Cisco 7206VXR (NPE400) processor (revision A) with 491520K/32768K bytes of memory.
-*Oct 26 13:31:45.027: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0, changed state to up
-*Oct 26 13:31:45.039: %LINK-3-UPDOWN: Interface Ethernet0/0, changed state to up
-*Oct 26 13:31:45.047: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
-*Oct 26 13:31:45.055: %LINK-3-UPDOWN: Interface GigabitEthernet1/0, changed state to up
-*Oct 26 13:31:45.063: %LINK-3-UPDOWN: Interface GigabitEthernet2/0, changed state to up
-*Oct 26 13:31:45.071: %LINK-3-UPDOWN: Interface GigabitEthernet3/0, changed state to up
-*Oct 26 13:31:45.079: %LINK-3-UPDOWN: Interface GigabitEthernet4/0, changed state to upInstalled image archive
 
-Processor board ID 4279256517
-R7000 CPU at 150MHz, Implementation 39, Rev 2.1, 256KB L2, 512KB L3 Cache
-6 slot VXR midplane, Version 2.1
+*Oct 31 15:47:50.703: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlanCisco IOSv () processor (revision 1.0) with 574713K/209920K bytes of memory.
+*Oct 31 15:47:55.369: %LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to reset
+*Oct 31 15:47:55.370: %LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to reset
+*Oct 31 15:47:55.370: %LINK-5-CHANGED: Interface GigabitEthernet0/2, changed state to reset
+*Oct 31 15:47:55.371: %LINK-5-CHANGED: Interface GigabitEthernet0/3, changed state to reset
+*Oct 31 15:47:55.371: %LINK-5-CHANGED: Interface GigabitEthernet1/0, changed state to reset
+*Oct 31 15:47:55.372: %LINK-5-CHANGED: Interface GigabitEthernet1/1, changed state to reset
+*Oct 31 15:47:55.372: %LINK-5-CHANGED: Interface GigabitEthernet1/2, changed state to reset
+*Oct 31 15:47:55.373: %LINK-5-CHANGED: Interface GigabitEthernet1/3, changed state to reset
+*Oct 31 15:47:55.373: %LINK-5-CHANGED: Interface GigabitEthernet2/0, changed state to reset
+*Oct 31 15:47:55.374: %LINK-5-CHANGED: Interface GigabitEthernet2/1, changed state to reset
+*Oct 31 15:47:55.374: %LINK-5-CHANGED: Interface GigabitEthernet2/2, changed state to reset
+*Oct 31 15:47:55.375: %LINK-5-CHANGED: Interface GigabitEthernet2/3, changed state to reset
+*Oct 31 15:47:55.375: %LINK-5-CHANGED: Interface GigabitEthernet3/0, changed state to reset
+*Oct 31 15:47:55.376: %LINK-5-CHANGED: Interface GigabitEthernet3/1, changed state to reset
+*Oct 31 15:47:55.376: %LINK-5-CHANGED: Interface GigabitEthernet3/2, changed state to reset
+*Oct 31 15:47:55.377: %LINK-5-CHANGED: Interface GigabitEthernet3/3, changed state to reset
+Processor board ID 9FBWHYDC8CP
+16 Gigabit Ethernet interfaces
+DRAM configuration is 72 bits wide with parity disabled.
+256K bytes of non-volatile configuration memory.
+2097152K bytes of ATA System CompactFlash 0 (Read/Write)
+0K bytes of ATA CompactFlash 1 (Read/Write)
+0K bytes of ATA CompactFlash 2 (Read/Write)
+0K bytes of ATA CompactFlash 3 (Read/Write)
 
-Last reset from power-on
-
-PCI bus mb0_mb1 (Slots 0, 1, 3 and 5) has a capacity of 600 bandwidth points.
-Current configuration on bus mb0_mb1 has a total of 1200 bandwidth points. 
-The set of PA-2FE, PA-POS-2OC3, and I/O-2FE qualify for "half 
-bandwidth points" consideration, when full bandwidth point counting 
-results in oversubscription, under the condition that only one of the 
-two ports is used. With this adjustment, current configuration on bus 
-mb0_mb1 has a total of 1200 bandwidth points. 
-This configuration has oversubscripted the PCI bus and is not a 
-supported configuration. 
-
-PCI bus mb2 (Slots 2, 4, 6) has a capacity of 600 bandwidth points.
-Current configuration on bus mb2 has a total of 800 bandwidth points 
-The set of PA-2FE, PA-POS-2OC3, and I/O-2FE qualify for "half 
-bandwidth points" consideration, when full bandwidth point counting 
-results in oversubscription, under the condition that only one of the 
-two ports is used. With this adjustment, current configuration on bus 
-mb2 has a total of 800 bandwidth points. 
-This configuration has oversubscripted the PCI bus and is not a 
-supported configuration. 
-
-Please refer to the following document "Cisco 7200 Series Port Adaptor
-Hardware Configuration Guidelines" on Cisco.com <http://www.cisco.com>
-for c7200 bandwidth points oversubscription and usage guidelines.
-
-WARNING: PCI bus mb0_mb1 Exceeds 600 bandwidth points
-WARNING: PCI bus mb2 Exceeds 600 bandwidth points
-
-1 Ethernet interface
-5 Gigabit Ethernet interfaces
-509K bytes of NVRAM.
-
-8192K bytes of Flash internal SIMM (Sector size 256K).
-*Oct 26 13:31:46.107: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/0, changed state to up
-*Oct 26 13:31:46.111: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
-*Oct 26 13:31:46.115: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to up
-*Oct 26 13:31:46.119: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0, changed state to up
-*Oct 26 13:31:46.123: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0, changed state to up
-*Oct 26 13:31:46.127: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0, changed state to up
-CMD: 'service timestamps debug datetime msec' 13:31:46 UTC Mon Oct 26 2020
-CMD: 'service timestamps log datetime msec' 13:31:46 UTC Mon Oct 26 2020
-CMD: PASSWORD statement not printed
-CMD: 'hostname R2' 13:31:46 UTC Mon Oct 26 2020
-CMD: 'ip cef' 13:31:46 UTC Mon Oct 26 2020
-CMD: 'no ip domain-lookup' 13:31:46 UTC Mon Oct 26 2020
-CMD: 'no ip icmp rate-limit unreachable' 13:31:46 UTC Mon Oct 26 2020
-CMD: 'ip tcp synwait 5' 13:31:46 UTC Mon Oct 26 2020
-CMD: 'no cdp log mismatch duplex' 13:31:46 UTC Mon Oct 26 2020
-CMD: 'line con 0' 13:31:46 UTC Mon Oct 26 2020
-CMD: ' exec-timeout 0 0' 13:31:47 UTC Mon Oct 26 2020
-CMD: ' logging synchronous' 13:31:47 UTC Mon Oct 26 2020
-CMD: ' privilege level 15' 13:31:47 UTC Mon Oct 26 2020
-CMD: ' no login' 13:31:47 UTC Mon Oct 26 2020
-CMD: 'line aux 0' 13:31:47 UTC Mon Oct 26 2020
-CMD: ' exec-timeout 0 0' 13:31:47 UTC Mon Oct 26 2020
-CMD: ' logging synchronous' 13:31:47 UTC Mon Oct 26 2020
-CMD: ' privilege level 15' 13:31:47 UTC Mon Oct 26 2020
-CMD: ' no login' 13:31:47 UTC Mon Oct 26 2020
-CMD: 'end' 13:31:47 UTC Mon Oct 26 2020
-*Oct 26 13:31:47.119: %SYS-5-CONFIG_I: Configured from memory by console
-SETUP: new interface Ethernet0/0 placed in "shutdown" state
-SETUP: new interface GigabitEthernet0/0 placed in "shutdown" state
-SETUP: new interface GigabitEthernet1/0 placed in "shutdown" state
-SETUP: new interface GigabitEthernet2/0 placed in "shutdown" state
-SETUP: new interface GigabitEthernet3/0 placed in "shutdown" state
-SETUP: new interface GigabitEthernet4/0 placed in "shutdown" state
-CMD: 'access-list 199 permit icmp host 10.10.10.10 host 20.20.20.20' 13:31:47 UTC Mon Oct 26 2020
-CMD: 'crypto map NiStTeSt1 10 ipsec-manual' 13:31:47 UTC Mon Oct 26 2020
-CMD: 'match address 199
-' 13:31:47 UTC Mon Oct 26 2020
-CMD: 'set peer 20.20.20.20
-' 13:31:47 UTC Mon Oct 26 2020
-CMD: 'exit' 13:31:47 UTC Mon Oct 26 2020
-CMD: 'no access-list 199' 13:31:47 UTC Mon Oct 26 2020
-CMD: 'no crypto map NiStTeSt1' 13:31:47 UTC Mon Oct 26 2020
-*Oct 26 13:31:48.179: %SYS-5-RESTART: System restarted --
-Cisco IOS Software, 7200 Software (C7200-ADVENTERPRISEK9-M), Version 15.2(4)M5, RELEASE SOFTWARE (fc2)
-Technical Support: http://www.cisco.com/techsupport
-Copyright (c) 1986-2013 by Cisco Systems, Inc.
-Compiled Fri 13-Sep-13 18:47 by prod_rel_team
-*Oct 26 13:31:48.307: %SNMP-5-COLDSTART: SNMP agent on host R2 is undergoing a cold start
-*Oct 26 13:31:48.635: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
-*Oct 26 13:31:48.639: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
-*Oct 26 13:31:49.127: %LINK-5-CHANGED: Interface Ethernet0/0, changed state to administratively down
-*Oct 26 13:31:49.139: %LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to administratively down
-*Oct 26 13:31:49.151: %LINK-5-CHANGED: Interface GigabitEthernet1/0, changed state to administratively down
-*Oct 26 13:31:49.159: %LINK-5-CHANGED: Interface GigabitEthernet2/0, changed state to administratively down
-*Oct 26 13:31:49.171: %LINK-5-CHANGED: Interface GigabitEthernet3/0, changed state to administratively down
-*Oct 26 13:31:49.179: %LINK-5-CHANGED: Interface GigabitEthernet4/0, changed state to administratively down
-*Oct 26 13:31:50.127: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/0, changed state to down
-*Oct 26 13:31:50.139: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to down
-*Oct 26 13:31:50.151: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to down
-*Oct 26 13:31:50.159: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0, changed state to down
-*Oct 26 13:31:50.171: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0, changed state to down
-*Oct 26 13:31:50.179: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0, changed state to down
-CMD: 'conf t' 13:32:18 UTC Mon Oct 26 2020
-CMD: PASSWORD statement not printed
-CMD: 'no username cisco secret cisco' 13:32:56 UTC Mon Oct 26 2020
-CMD: 'ex' 13:32:57 UTC Mon Oct 26 2020
-CMD: 'exit' 13:32:59 UTC Mon Oct 26 2020
-*Oct 26 13:32:59.303: %SYS-5-CONFIG_I: Configured from console by console
-CMD: 'end' 13:33:00 UTC Mon Oct 26 2020
-CMD: 'connect end' 13:33:00 UTC Mon Oct 26 2020
-CMD: 'end' 13:33:02 UTC Mon Oct 26 2020
-CMD: 'connect end' 13:33:02 UTC Mon Oct 26 2020
-CMD: 'test crash' 13:46:07 UTC Mon Oct 26 2020
-  CMD_SELECTION: x
-CMD: 'show ru' 13:47:30 UTC Mon Oct 26 2020
-CMD: 'show run' 13:47:32 UTC Mon Oct 26 2020
-CMD: 'conf t' 13:47:49 UTC Mon Oct 26 2020
-CMD: 'int gigabitEthernet 0/0' 13:47:52 UTC Mon Oct 26 2020
-CMD: 'ip add 192.168.80.' 13:51:43 UTC Mon Oct 26 2020
-CMD: 'ip add 192.168.80.10 255.255.255.0' 13:51:50 UTC Mon Oct 26 2020
-CMD: 'no shut' 13:51:51 UTC Mon Oct 26 2020
-CMD: 'ex' 13:51:53 UTC Mon Oct 26 2020
-*Oct 26 13:51:53.691: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
-*Oct 26 13:51:54.691: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
-CMD: 'end' 16:14:41 UTC Mon Oct 26 2020
-*Oct 26 16:14:41.499: %SYS-5-CONFIG_I: Configured from console by console
-CMD: 'sh run' 16:14:42 UTC Mon Oct 26 2020
-CMD: 'conf t' 16:14:58 UTC Mon Oct 26 2020
-CMD: 'username cisco' 16:15:26 UTC Mon Oct 26 2020
+CMD: 'version 15.2' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'service timestamps debug datetime msec' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'service timestamps log datetime msec' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'no service password-encryption' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'service compress-config' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'hostname ACCESS' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'boot-start-marker' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'boot-end-marker' 15:47:55 UTC Sat Oct 31 2020
 CMD: PASSWORD statement not printed
 CMD: PASSWORD statement not printed
-CMD: 'ip domain-name ben.com' 16:15:43 UTC Mon Oct 26 2020
-CMD: PASSWORD statement not printed
-*Oct 26 16:16:07.711: %SSH-5-ENABLED: SSH 1.99 has been enabled
-CMD: 'ip ssh ver 2' 16:18:10 UTC Mon Oct 26 2020
-CMD: 'line vty 0 4' 16:18:13 UTC Mon Oct 26 2020
-CMD: 'login local' 16:18:16 UTC Mon Oct 26 2020
-CMD: 'end' 16:18:17 UTC Mon Oct 26 2020
-*Oct 26 16:18:17.919: %SYS-5-CONFIG_I: Configured from console by console
-CMD: 'end' 16:18:19 UTC Mon Oct 26 2020
-CMD: 'connect end' 16:18:19 UTC Mon Oct 26 2020
-CMD: 'ex' 16:18:20 UTC Mon Oct 26 2020
-CMD: 'terminal length 0' 16:18:46 UTC Mon Oct 26 2020
-CMD: 'enable ' 16:18:46 UTC Mon Oct 26 2020
-CMD: 'show history all ' 16:18:47 UTC Mon Oct 26 2020
-R2#
+CMD: 'no aaa new-model' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'ip dhcp snooping vlan 1,10' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'ip dhcp snooping' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'ip domain-name F19.ICT' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'ip cef' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'no ipv6 cef' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'spanning-tree mode pvst' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'spanning-tree extend system-id' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'vlan internal allocation policy ascending' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet0/0' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' switchport trunk encapsulation dot1q' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' switchport mode trunk' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' ip dhcp snooping trust' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet0/1' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' switchport trunk encapsulation dot1q' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' switchport mode trunk' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet0/2' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet0/3' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet1/0' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' switchport mode access' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet1/1' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet1/2' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet1/3' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet2/0' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet2/1' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet2/2' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet2/3' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet3/0' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet3/1' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet3/2' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface GigabitEthernet3/3' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' media-type rj45' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' negotiation auto' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface Vlan1' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' ip address 192.168.133.120 255.255.255.0' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'interface Vlan30' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' ip address 192.168.30.2 255.255.255.0' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'ip forward-protocol nd' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'no ip http server' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'no ip http secure-server' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'ip ssh version 2' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'control-plane' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'banner exec ^C' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'banner incoming ^C' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'banner login ^C' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'line con 0' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'line aux 0' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'line vty 0 4' 15:47:55 UTC Sat Oct 31 2020
+CMD: ' login local' 15:47:55 UTC Sat Oct 31 2020
+CMD: 'end' 15:47:55 UTC Sat Oct 31 2020
+*Oct 31 15:47:55.907: %SYS-5-CONFIG_I: Configured from memory by console
+CMD: 'access-list 199 permit icmp host 10.10.10.10 host 20.20.20.20' 15:47:56 UTC Sat Oct 31 2020
+CMD: 'no access-list 199' 15:47:56 UTC Sat Oct 31 2020
+*Oct 31 15:47:56.486: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to down
+*Oct 31 15:47:56.487: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to down
+*Oct 31 15:47:56.488: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*Oct 31 15:47:56.488: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to up
+*Oct 31 15:47:56.489: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to up
+*Oct 31 15:47:56.489: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to up
+*Oct 31 15:47:56.490: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/2, changed state to up
+*Oct 31 15:47:56.490: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/3, changed state to up
+*Oct 31 15:47:56.491: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0, changed state to up
+*Oct 31 15:47:56.491: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/1, changed state to up
+*Oct 31 15:47:56.492: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/2, changed state to up
+*Oct 31 15:47:56.492: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/3, changed state to up
+*Oct 31 15:47:56.493: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0, changed state to up
+*Oct 31 15:47:56.494: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/1, changed state to up
+*Oct 31 15:47:56.494: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/2, changed state to up
+*Oct 31 15:47:56.495: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/3, changed state to up
+*Oct 31 15:47:56.900: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+*Oct 31 15:47:56.900: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan30, changed state to down
+*Oct 31 15:47:57.728: %LINK-3-UPDOWN: Interface GigabitEthernet3/3, changed state to up
+*Oct 31 15:47:57.730: %LINK-3-UPDOWN: Interface GigabitEthernet3/2, changed state to down
+*Oct 31 15:47:57.730: %LINK-3-UPDOWN: Interface GigabitEthernet3/1, changed state to down
+*Oct 31 15:47:57.731: %LINK-3-UPDOWN: Interface GigabitEthernet3/0, changed state to down
+*Oct 31 15:47:57.732: %LINK-3-UPDOWN: Interface GigabitEthernet2/3, changed state to down
+*Oct 31 15:47:57.732: %LINK-3-UPDOWN: Interface GigabitEthernet2/2, changed state to down
+*Oct 31 15:47:57.733: %LINK-3-UPDOWN: Interface GigabitEthernet2/1, changed state to down
+*Oct 31 15:47:57.734: %LINK-3-UPDOWN: Interface GigabitEthernet2/0, changed state to down
+*Oct 31 15:47:57.734: %LINK-3-UPDOWN: Interface GigabitEthernet1/3, changed state to down
+*Oct 31 15:47:57.735: %LINK-3-UPDOWN: Interface GigabitEthernet1/2, changed state to down
+*Oct 31 15:47:57.736: %LINK-3-UPDOWN: Interface GigabitEthernet1/1, changed state to down
+*Oct 31 15:47:57.736: %LINK-3-UPDOWN: Interface GigabitEthernet1/0, changed state to down
+*Oct 31 15:47:57.737: %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to down
+*Oct 31 15:47:57.740: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to down
+*Oct 31 15:47:57.741: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*Oct 31 15:47:57.742: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*Oct 31 15:47:58.776: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/2, changed state to down
+*Oct 31 15:47:58.777: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/1, changed state to down
+*Oct 31 15:47:58.778: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0, changed state to down
+*Oct 31 15:47:58.778: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/3, changed state to down
+*Oct 31 15:47:58.779: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/2, changed state to down
+*Oct 31 15:47:58.779: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/1, changed state to down
+*Oct 31 15:47:58.780: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0, changed state to down
+*Oct 31 15:47:58.781: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/3, changed state to down
+*Oct 31 15:47:58.781: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/2, changed state to down
+*Oct 31 15:47:58.782: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to down
+*Oct 31 15:47:58.783: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to down
+*Oct 31 15:47:58.783: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to down
+*Oct 31 15:47:58.784: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to down
+*Oct 31 15:47:58.785: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+*Oct 31 15:47:58.785: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*Oct 31 15:48:04.410: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Experimental Version 15.2(20170321:233949) [mmen 101]
+Copyright (c) 1986-2017 by Cisco Systems, Inc.
+Compiled Wed 22-Mar-17 08:38 by mmen
+*Oct 31 15:48:04.462: %SSH-5-ENABLED: SSH 2.0 has been enabled
+CMD: 'parameter-map type subscriber attribute-to-service BUILTIN_DEVICE_TO_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: '10 map device-type regex "Cisco-IP-Phone"' 15:48:04 UTC Sat Oct 31 2020
+CMD: '20 interface-template IP_PHONE_INTERFACE_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: '20 map device-type regex "Cisco-IP-Camera"' 15:48:04 UTC Sat Oct 31 2020
+CMD: '20 interface-template IP_CAMERA_INTERFACE_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: '30 map device-type regex "Cisco-DMP"' 15:48:04 UTC Sat Oct 31 2020
+CMD: '20 interface-template DMP_INTERFACE_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: '40 map oui eq 00.0f.44' 15:48:04 UTC Sat Oct 31 2020
+CMD: '20 interface-template DMP_INTERFACE_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: '50 map oui eq 00.23.ac' 15:48:04 UTC Sat Oct 31 2020
+CMD: '20 interface-template DMP_INTERFACE_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: '60 map device-type regex "Cisco-AIR-AP"' 15:48:04 UTC Sat Oct 31 2020
+CMD: '20 interface-template AP_INTERFACE_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: '70 map device-type regex "Cisco-AIR-LAP"' 15:48:04 UTC Sat Oct 31 2020
+CMD: '20 interface-template LAP_INTERFACE_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: '80 map device-type regex "Cisco-TelePresence"' 15:48:04 UTC Sat Oct 31 2020
+CMD: '20 interface-template TP_INTERFACE_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: '90 map device-type regex "Surveillance-Camera"' 15:48:04 UTC Sat Oct 31 2020
+CMD: '10 interface-template MSP_CAMERA_INTERFACE_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: '100 map device-type regex "Video-Conference"' 15:48:04 UTC Sat Oct 31 2020
+CMD: '10 interface-template MSP_VC_INTERFACE_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'policy-map type control subscriber BUILTIN_AUTOCONF_POLICY' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'event identity-update match-all' 15:48:04 UTC Sat Oct 31 2020
+CMD: '10 class always do-until-failure' 15:48:04 UTC Sat Oct 31 2020
+CMD: '10 map attribute-to-service table BUILTIN_DEVICE_TO_TEMPLATE' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'ip access-list extended preauth_ipv4_acl' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit udp any any eq 53' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit tcp any any eq 53' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit udp any eq bootps any' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit udp any any eq bootpc' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit udp any eq bootpc any' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'deny ip any any' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'end' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'ipv6 access-list preauth_ipv6_acl' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit udp any any eq 53' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit tcp any any eq 53' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit icmp any any nd-ns' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit icmp any any nd-na' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit icmp any any router-solicitation' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit icmp any any router-advertisement' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit icmp any any redirect' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit udp any eq 547 any eq 546' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'permit udp any eq 546 any eq 547' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'deny ip any any' 15:48:04 UTC Sat Oct 31 2020
+CMD: 'end' 15:48:04 UTC Sat Oct 31 2020
+*Oct 31 15:48:17.797: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios_l2-adventerprisek9-m' passed code signing verification
+*Oct 31 15:48:36.644: %LINK-3-UPDOWN: Interface Vlan30, changed state to up
+*Oct 31 15:48:37.647: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan30, changed state to up
+*Oct 31 16:01:33.557: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPACK, MAC sa: 0050.56f0.b0c1
+*Oct 31 16:16:21.073: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPACK, MAC sa: 0050.56f0.b0c1
+CMD: 'terminal length 0' 16:21:10 UTC Sat Oct 31 2020
+CMD: 'enable ' 16:21:10 UTC Sat Oct 31 2020
+CMD: 'show history all ' 16:21:11 UTC Sat Oct 31 2020
+ACCESS#

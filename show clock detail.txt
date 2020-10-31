@@ -1,4 +1,4 @@
 show clock detail 
-*16:18:52.695 UTC Mon Oct 26 2020
+*16:21:16.717 UTC Sat Oct 31 2020
 Time source is hardware calendar
-R2#
+ACCESS#

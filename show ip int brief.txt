@@ -1,9 +1,21 @@
 show ip int brief 
-Interface                  IP-Address      OK? Method Status                Protocol
-Ethernet0/0                unassigned      YES unset  administratively down down    
-GigabitEthernet0/0         192.168.80.10   YES manual up                    up      
-GigabitEthernet1/0         unassigned      YES unset  administratively down down    
-GigabitEthernet2/0         unassigned      YES unset  administratively down down    
-GigabitEthernet3/0         unassigned      YES unset  administratively down down    
-GigabitEthernet4/0         unassigned      YES unset  administratively down down    
-R2#
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0     unassigned      YES unset  up                    up      
+GigabitEthernet0/1     unassigned      YES unset  up                    up      
+GigabitEthernet0/2     unassigned      YES unset  down                  down    
+GigabitEthernet0/3     unassigned      YES unset  down                  down    
+GigabitEthernet1/0     unassigned      YES unset  down                  down    
+GigabitEthernet1/1     unassigned      YES unset  down                  down    
+GigabitEthernet1/2     unassigned      YES unset  down                  down    
+GigabitEthernet1/3     unassigned      YES unset  down                  down    
+GigabitEthernet2/0     unassigned      YES unset  down                  down    
+GigabitEthernet2/1     unassigned      YES unset  down                  down    
+GigabitEthernet2/2     unassigned      YES unset  down                  down    
+GigabitEthernet2/3     unassigned      YES unset  down                  down    
+GigabitEthernet3/0     unassigned      YES unset  down                  down    
+GigabitEthernet3/1     unassigned      YES unset  down                  down    
+GigabitEthernet3/2     unassigned      YES unset  down                  down    
+GigabitEthernet3/3     unassigned      YES unset  up                    up      
+Vlan1                  192.168.133.120 YES NVRAM  up                    up      
+Vlan30                 192.168.30.2    YES NVRAM  up                    up      
+ACCESS#

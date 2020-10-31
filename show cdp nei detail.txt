@@ -1,2 +1,4 @@
 show cdp nei detail 
-R2#
+
+Total cdp entries displayed : 0
+ACCESS#
