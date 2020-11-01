@@ -10,7 +10,7 @@ This tool is created to assist Network Forensics Analyst to extract and analyze 
 Link: https://github.com/benjaminkoh1994/BXACK/blob/main/Manual.pdf
 
 
-## Video Demostration
+## Video Demonstration
 Youtube Link: https://www.youtube.com/watch?v=G_T4pyE9vrs
 
 
@@ -61,4 +61,28 @@ Using cmd, Run program.py
 python program.py
 ```
 
+## Built With
 
+* [Python3](https://www.python.org/downloads/) - Language used
+* [PyFPDF](https://pypi.org/project/PyFDP/) - Generate PDF files
+* [difflib](https://pypi.org/project/cdifflib/) - Check differences between files
+* [datetime](https://pypi.org/project/DateTime/) - Control flow of program
+* [paramiko](https://pypi.org/project/paramiko/) - Enable SSH connection
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/lusterless/Singapore-Bus-Map-Development/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* **Koh Jie Ming, Benjamin**
+* **Ee Xian Hui**
+* **Koh Kai Quan**
+* **Ong Chang Hong**
+* **Chua An Rong Aaron**
+
+See also the list of [contributors](CONTRIBUTING.md) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
