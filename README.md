@@ -7,7 +7,7 @@ This tool is created to assist Network Forensics Analyst to extract and analyze 
 
 
 # Detailed Manual Guide
-Link: 
+Link:https://github.com/benjaminkoh1994/BXACK/blob/main/Manual.pdf
 
 
 # Video Demostration
