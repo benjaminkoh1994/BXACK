@@ -18,17 +18,17 @@ Youtube Link: https://www.youtube.com/watch?v=G_T4pyE9vrs
 BXACK Project consists of three module namely:
 
 * program.py
-```
+
 program.py is the main file which utilizes the subsequent python files (extract.py, ssh.py) to run the program. This file instantiates the imported classes and defines the flow of BXACK.
-```
+
 * extract.py
-```
+
 This file contains 2 classes (EXTRACTCMD, EXTRACTSECT) that are associated to Option B of BXACK program, to analyze cisco forensic evidence. These 2 classes extract and clean the data before displaying it as outputs for analysis.
-```
+
 * ssh.py
-```
+
 This file contains 1 class that is shared among Option A and Option C of the BXACK program. It launches an SSH connection using Paramiko library for forensic evidence acquisition before cleaning the data and displaying it as output for analysis.
-```
+
 
 ## Getting Started
 
