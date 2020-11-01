@@ -62,9 +62,9 @@ python program.py
 
 * [Python3](https://www.python.org/downloads/) - Language used
 * [PyFPDF](https://pypi.org/project/PyFDP/) - Generate PDF files
-* [difflib](https://pypi.org/project/cdifflib/) - Check differences between files
-* [datetime](https://pypi.org/project/DateTime/) - Control flow of program
-* [paramiko](https://pypi.org/project/paramiko/) - Enable SSH connection
+* [Difflib](https://pypi.org/project/cdifflib/) - Check differences between files
+* [Datetime](https://pypi.org/project/DateTime/) - Control flow of program
+* [Paramiko](https://pypi.org/project/paramiko/) - Enable SSH connection
 
 ## Contributing
 
