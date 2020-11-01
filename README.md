@@ -46,12 +46,18 @@ pip install difflib
 ```
 * datetime - Control flow of program
 ```
-pip install difflib
+pip install datetime
 ```
 * paramiko - Enable SSH connection
 ```
 pip install difflib
 ```
 
+## Running the tests
+
+Using cmd, Run program.py
+```
+python program.py
+```
 
 
