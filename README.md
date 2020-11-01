@@ -37,19 +37,15 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 * Using [pip](https://pip.pypa.io/en/stable/) install:
 * **These are the main dependencies**
-* PyFPDF - Generate PDF files
 ```
 pip install fpdf
 ```
-* difflib - Check differences between files
 ```
 pip install difflib
 ```
-* datetime - Control flow of program
 ```
 pip install datetime
 ```
-* paramiko - Enable SSH connection
 ```
 pip install difflib
 ```
