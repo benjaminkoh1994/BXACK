@@ -47,7 +47,7 @@ pip install difflib
 pip install datetime
 ```
 ```
-pip install difflib
+pip install paramiko
 ```
 
 ## Running the tests
