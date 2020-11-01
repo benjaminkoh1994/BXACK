@@ -60,8 +60,7 @@ Using cmd, Run program.py
 ```
 python program.py
 ```
-![WhatsApp Image 2020-11-01 at 16 23 44](https://user-images.githubusercontent.com/57383960/97798458-429e2d00-1c61-11eb-9323-01df3f6bde8f.jpeg)
-
+![WhatsApp Image 2020-11-01 at 16 23 44](https://user-images.githubusercontent.com/57383960/97798485-78431600-1c61-11eb-8fed-6fb289ebb908.jpeg)
 
 ## Built With
 
